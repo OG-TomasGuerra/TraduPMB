@@ -11,6 +11,17 @@ Y seria cierto, puesto a que efectivamente se instala en español. Sin embargo, 
 
 Con esto como justificacion, este proyecto tiene la intencion de servir como un esfuerzo conjunto por parte de la comunidad en español para obtener una traduccion completa libre para todos los que por una razon u otra, queremos tener el PMB completamente en español.
 
+# ¿Como instalarlo?
+Para instalar este parche actualmente la unica manera es reemplazando los archivos de los que hablaba antes :P
+
+Clickea en el boton verde que dice "Code", y luego "Download zip". Extrae el archivo que obtenes en una carpeta, y dentro vas a encontrar los archivos "config.inc.php", "es_ES.xml", "fr_FR.xml" y "README.md"
+
+-Copia o move config.inc.php a tu carpeta "includes" del PMB... por ejemplo, si lo corres en XAMPP, lo pondrias en "C:\xampp\htdocs\pmb\includes".
+
+-Copia o move es_ES.xml y fr_FR.xml a tu carpeta messages del PMB... por ejemplo, si lo corres en XAMPP, lo pondrias en "C:\xampp\htdocs\pmb\includes\messages".
+
+Cuando tu sistema te pregunte si queres reemplazar los archivos en el destino, confirma esa accion. Luego, presiona F5 en el PMB funcionando (osea, cuando lo estes corriendo con localhost/pmb/ en tu navegador) para observar los cambios (o en su defecto, los vas a ver cuando inicies el PMB)
+
 # ¿"Como" este proyecto?
 Para traducir PMB, segun la investigacion realizada, hay unos archivos que nos interesan. Espero que podamos ir agregando más segun sea necesario ir agregando, pero basicamente son:
 
