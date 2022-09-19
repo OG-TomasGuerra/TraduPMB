@@ -36,7 +36,7 @@ Estos son facilmente editables mediante una aplicacion como Wordpad, aunque tamb
 # ¿Como puedo aportar?
 Extendiendo de la seccion anterior, lo que podes aportar es tu granito de arena para la traduccion. Hay varias formas en las que puedes hacer esto:
 
--Descarga el archivo es_ES.xml y basicamente, lo que este en frances, traducelo a español, y lo vuelves a subir mediante la generacion un request, nosotros lo revisamos y te agregamos a la lista de creditos.
+-Abri la branch "para-trabajar" y modifica el archivo es_ES.xml, traduciendo lo que esta entre las tags en frances que encuentres, al español. Una vez hayas hecho eso, realiza un pull request. La chequeamos y le damos merge con la main.
 
 -Sugiere cualquier tipo de idea que pueda ayudar a mejorar la traduccion. Por ejemplo, podes compartir archivos que deban ser traducidos, o partes del programa que aun no hayan sido traducidos (esto segun vaya progresando el trabajo)
 
