@@ -14,11 +14,19 @@ Con esto como justificacion, este proyecto tiene la intencion de servir como un 
 # ¿Como instalarlo?
 Para instalar este parche actualmente la unica manera es reemplazando los archivos de los que hablaba antes :P
 
-Clickea en el boton verde que dice "Code", y luego "Download zip". Extrae el archivo que obtenes en una carpeta, y dentro vas a encontrar los archivos "config.inc.php", "es_ES.xml", "fr_FR.xml" y "README.md"
+Clickea en el boton que dice "Main", y cambia hacia la branch "Administracion/Cuerpo" o "Opac CSS", una vez te encuentres en esa branch, clickea el boton verde que dice "Code" y luego "Download zip". 
+
+Extrae el archivo que obtenes en una carpeta, y dentro vas a encontrar los archivos "config.inc.php", "es_ES.xml", "fr_FR.xml" y "README.md"
+
+En el caso del cuerpo/administracion:
 
 -Copia o move config.inc.php a tu carpeta "includes" del PMB... por ejemplo, si lo corres en XAMPP, lo pondrias en "C:\xampp\htdocs\pmb\includes".
 
--Copia o move es_ES.xml y fr_FR.xml a tu carpeta messages del PMB... por ejemplo, si lo corres en XAMPP, lo pondrias en "C:\xampp\htdocs\pmb\includes\messages".
+-Copia o move es_ES.xml, es_ES_subst.xml y fr_FR.xml a tu carpeta messages del PMB... por ejemplo, si lo corres en XAMPP, lo pondrias en "C:\xampp\htdocs\pmb\includes\messages".
+
+En el caso del Opac
+
+-Copia o move es_ES.xml, es_ES_subst.xml y fr_FR.xml a tu carpeta messages del OPAC en el PMB... por ejemplo, si lo corres en XAMPP, lo pondrias en C:\xampp\htdocs\pmb\opac_css\includes\messages
 
 Cuando tu sistema te pregunte si queres reemplazar los archivos en el destino, confirma esa accion. Luego, presiona F5 en el PMB funcionando (osea, cuando lo estes corriendo con localhost/pmb/ en tu navegador) para observar los cambios (o en su defecto, los vas a ver cuando inicies el PMB)
 
@@ -27,7 +35,7 @@ Para traducir PMB, segun la investigacion realizada, hay unos archivos que nos i
 
 -El archivo "config.inc.php" ubicado en pmb/includes
 
--El archivo "es_ES.xml" ubicado en pmb/includes/messages
+-Los archivos "es_ES.xml" y "es_ES_subst.xml" (generado por nosotros) ubicado en pmb/includes/messages
 
 -El archivo "fr_FR.xml" ubicado en pmb/includes/messages
 
@@ -36,7 +44,7 @@ Estos son facilmente editables mediante una aplicacion como Wordpad, aunque tamb
 # ¿Como puedo aportar?
 Extendiendo de la seccion anterior, lo que podes aportar es tu granito de arena para la traduccion. Hay varias formas en las que puedes hacer esto:
 
--Abri la branch "para-trabajar" y modifica el archivo es_ES.xml, traduciendo lo que esta entre las tags en frances que encuentres, al español. Una vez hayas hecho eso, realiza un pull request. La chequeamos y le damos merge con la main.
+-Abri la branch "Administracion/Cuerpo" o "Opac" y modifica el archivo es_ES.xml, traduciendo lo que esta entre las tags en frances que encuentres, al español. Una vez hayas hecho eso, realiza un pull request. La chequeamos y le damos merge con la main.
 
 -Sugiere cualquier tipo de idea que pueda ayudar a mejorar la traduccion. Por ejemplo, podes compartir archivos que deban ser traducidos, o partes del programa que aun no hayan sido traducidos (esto segun vaya progresando el trabajo)
 
